@@ -1,6 +1,6 @@
 
 const Form = () => {
-    return(
+    return (
         <form>
             <input type="text" className="todo-input" />
             <button className="todo-button" type="submit">
