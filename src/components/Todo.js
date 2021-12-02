@@ -1,4 +1,3 @@
-
 const Todo = ({ text, todo, todos, setTodos }) => {
     //Events
     const deleteHandler = () => {
