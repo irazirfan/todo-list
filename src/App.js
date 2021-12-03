@@ -34,7 +34,6 @@ function App() {
         break;
     }
   }
-  //console.log(filteredTodos);
   //Save to Local Storage
   const saveLocalTodos = () => {
     localStorage.setItem('todos', JSON.stringify(todos));
@@ -60,7 +59,6 @@ function App() {
         setTodos={setTodos}
         setInputText={setInputText}
         setStatus={setStatus}
-        //filteredTodos={filteredTodos}
       />
       <TodoList
         filteredTodos={filteredTodos}
